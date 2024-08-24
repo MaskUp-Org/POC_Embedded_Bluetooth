@@ -9,7 +9,8 @@
 
 #include <Arduino.h>
 #include "needed.hpp"
-#include "State.hpp"
+#include "Enums.h"
+
 
 namespace MaskUP
 {

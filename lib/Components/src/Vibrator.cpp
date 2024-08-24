@@ -7,7 +7,9 @@
 #include "Vibrator.h"
 #include <iostream>
 
-namespace MaskUP::ESP
+namespace MaskUP
+{
+namespace Component
 {
 
 void Vibrator::run ()
@@ -22,4 +24,5 @@ void Vibrator::stop ()
     std::cout << "Vibrator::stop.\n";
 }
 
+}
 }

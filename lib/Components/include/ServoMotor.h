@@ -7,8 +7,6 @@
 #pragma once
 
 #include "IComponent.h"
-#include "Position.hpp"
-#include "State.hpp"
 
 namespace MaskUP
 {

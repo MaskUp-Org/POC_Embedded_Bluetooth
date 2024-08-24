@@ -7,7 +7,9 @@
 
 #include "ESP_32.h"
 
-namespace MaskUP::Component
+namespace MaskUP
+{
+namespace Component
 {
 
 ESP_32::ESP_32() {
@@ -15,4 +17,5 @@ ESP_32::ESP_32() {
 }
 
 
+}
 }
