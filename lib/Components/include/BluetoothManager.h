@@ -8,6 +8,7 @@
 
 #include "IComponent.h"
 #include "BluetoothSerial.h"
+#include <ArduinoJson.h>
 
 namespace MaskUP
 {
@@ -30,6 +31,7 @@ namespace MaskUP
 
 
         private:
+            void manageBluetoothData();
             bool m_state;
             BluetoothSerial SerialBT;
         };

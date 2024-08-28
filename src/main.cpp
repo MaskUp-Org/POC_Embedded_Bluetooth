@@ -10,6 +10,8 @@
 #include <Arduino.h>
 #include "BluetoothManager.h"
 
+
+
  MaskUP::Component::BluetoothManager bluetoothManager;
  
 // #include <vector>
@@ -20,7 +22,7 @@
 void setup() {
     Serial.begin(115200);
 
- bluetoothManager.setup();
+    bluetoothManager.setup();
 
 
     Serial.println("Setup main ready");
@@ -33,8 +35,11 @@ void setup() {
 
 void loop() {
     // put your main code here, to run repeatedly:
-    bluetoothManager.loop();
+    // bluetoothManager.loop();
     Serial.read();
+     
+    bluetoothManager.loop();
+
 
 
     // digitalWrite(16, HIGH);
